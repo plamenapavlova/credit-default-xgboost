@@ -75,10 +75,4 @@ Limitations:
 
 With more time, engineered features such as the share of each bill repaid could improve the ranking itself (AUC). Threshold tuning, by contrast, only moves along the existing precision/recall trade-off.
 
-## Appendix (not counted)
 
-- **Endpoint:** `phase1-credit-default-plamena-v4` (SageMaker, us-east-1, ml.m5.large), deleted after the invocation test.
-- **Invocation:** ![Endpoint invocation](images/endpoint_invocation.png)  
-  The endpoint returned a default probability of 0.103 for test client 0, identical to the local model (not flagged at 0.25; actual outcome: no default).
-- **Deployment notes:** the pipeline was rerun once with xgboost 2.1.4 to match the SageMaker container. Results changed only in the third decimal, and no decision was changed after seeing the test results.
-- **AI assistance:** [your disclosure per the syllabus policy]
