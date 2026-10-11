@@ -1,5 +1,4 @@
-# Phase 1 Report — [Your name], [dataset]
-*Target ~500 words total. Replace every bracket. Due: Session 5 (Oct 12).*
+# Phase 1 Report 
 
 ## 1. Problem & dataset (~80 words)
 [What are you predicting, for whom, and why would a business care? Dataset, size, class balance.]
